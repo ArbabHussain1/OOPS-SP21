@@ -1,12 +1,11 @@
-package lab2assig2;
 
+package lab3assig2;
 public class Runner 
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
-        Rectangle R1 = new Rectangle(5, 7);
-        Rectangle R2 = new Rectangle(8, 10);
-        
-        R1.print(R1, R2);
-    }    
+        Time a = new Time();
+        Time b = new Time(23, 55, 32);
+        b.display();
+    }   
 }
